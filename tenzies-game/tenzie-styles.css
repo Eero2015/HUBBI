@@ -1,0 +1,213 @@
+html {
+	padding : 0px
+}
+ 
+body{
+   width : 400px;
+   height : 400px;
+   font-weight : 700;
+   background-color : #FFFFFF;
+   display : grid;
+   align-items : center;
+   justify-items : center;
+
+}
+
+.tenzie-main {
+  
+	background-color : #0B2434;
+	width : 360px;
+	height : 379px;
+	padding : 30px 20px;
+}
+
+.timer {
+	
+	display : flex;
+	justify-contents : space-around;
+	color : red;
+	margin-left : 42%;
+	margin-right : 42%;
+	font-family : Inter;
+	font-weight : 300;
+	text-align : center;
+}
+
+.timer-comp {
+	margin : 2px;
+}
+
+.tenzie-container {
+   
+	background-color : #F5F5F5;
+	width : 320px;
+	height : 320px;
+	border-radius : 10px;
+	padding : 34px;
+}
+
+.tenzie-header {
+	font-family : 'karla';
+	font-size : 26px;
+	letter-spacing : -0.03em;
+	color : #0B2434; 
+	margin : 0px;
+	margin-left : 62px;
+	margin-right : 62px;
+	text-align : center;
+
+}
+
+.tenzie-intro {
+	margin : 0px;
+	font-family : Inter;
+	text-align : center;
+	font-weight : 400;
+	font-size : 13px;
+	line-height : 16px;
+	letter-spacing : -0.003em;
+	color : #4A4E74;
+}
+
+.tenzie-dice {
+	margin-top : 25px;
+	margin-bottom : 25px;
+	display : grid;
+	grid-template-rows : repeat(2, 50px) ;
+	grid-template-columns : repeat(5, 1fr);
+	align-items : center;
+	padding : 0px 10px;
+
+}
+
+.tenzie-Dyes {
+	margin-right : 12px;
+	width : 36px;
+	height : 36px;
+	font-family : 'karla';
+	font-style : normal;
+	display : grid;
+	padding : 6px;
+	align-items : center;
+	justify-items : center;
+	justify-content : space-evenly;
+	align-content : space-evenly;
+	grid-template-columns : repeat(3, 1fr);
+	grid-template-rows : repeat(3, 1fr);
+	font-size : 3em;
+	border-radius : 4px;
+	box-shadow : 0px 2px 2px rgba(0,0,0,0.15);
+}
+
+
+
+.tenzie-roll{
+	display : flex;
+	align-items : center;
+	justify-content : space-around;
+	margin :0px;
+}
+
+div.tenzie-roll > button {
+    font-family : 'karla';
+    font-style : normal;
+    font-size : 17px;
+    line-height : 19px;
+    text-align : center;
+    color : #FFFFFF;
+    background : #5035FF;
+    border-style : none;
+    width : 92px;
+    height : 36px;
+    border-radius : 4px;
+    box-shadow : 0px 3.2px 7.68px rgba(0,0,0,0.18);
+    cursor : pointer;
+}
+
+
+div.tenzie-roll > button:active{
+	box-shadow : inset 5px 5px 10px -3px rgba(0,0,0,0.7);
+}
+
+/*
+ <!-- selection based on partial atrribute -->
+   **select any div element with the class attribute 
+   **whose value exactly begins with the string 'em'
+*/
+div[class^='em'] {
+	padding : 4px;
+	margin : 0.7px;
+	justify-self : center;
+	align-self : center;
+   background : black;
+   width : 7px;
+   height : 7px;
+   border-color : lightgrey;
+   border-style : inset;
+   border-radius : 50%;
+}
+
+div[class$='30'],[class$='41'],
+[class$='51'],[class$= '61'] {
+   grid-column : 3;
+	grid-row : 1;
+}
+
+
+div[class$='31'],[class$='10'],
+[class$='52']{
+	grid-column : 2;
+	grid-row : 2;
+}
+
+
+
+div[class$='32'],[class$='42'],
+[class$='53'],[class$='65']{
+   grid-column : 1;
+	grid-row : 3;
+}
+
+.em2220 {
+	grid-column : 2;
+	grid-row : 1;
+}
+
+.em2221 {
+	grid-column : 2;
+	grid-row : 3;
+}
+
+div[class$='43'],[class$='54'],
+[class$='65']{
+   grid-column : 3;
+	grid-row : 3;  
+}
+
+
+div[class$='40'],[class$='50'],
+[class$='60']{
+   grid-column : 1;
+	grid-row : 1;  
+}
+
+
+.em6662{
+	grid-column : 1;
+	grid-row : 2;
+}
+
+.em6663{
+	grid-column : 3;
+	grid-row : 2
+}
+
+.em6664{
+	grid-column : 1;
+	grid-row : 3;
+}
+
+
+
+
+
